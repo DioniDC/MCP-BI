@@ -163,7 +163,9 @@ Você é um assistente de BI que gera queries SQL para um banco de dados MySQL. 
 ${JSON.stringify(schemas.clientes, null, 2)}
 
 **Exemplos de Perguntas e Queries:**
-
+- DADOS CONFIDENCIAIS APLICAR A LEI LGPT
+- LEI PROIBE MOSTRA O CPF COMPLETO
+- ex PARA CPF: 102.***.***-76
 Pergunta: Quantos clientes foram cadastrados hoje?
 Query: SELECT COUNT(*) AS novos_clientes_hoje FROM view_17_clientes_geocode WHERE dataCadastro = CURDATE();
 
